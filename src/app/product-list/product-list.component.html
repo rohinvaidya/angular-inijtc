@@ -15,4 +15,6 @@ can be found in the LICENSE file at https://angular.io/license
   <p *ngIf="product.description">Description: {{ product.description }}</p>
 
   <button (click)="share()">Share</button>
+
+  <app-product-alerts [product]="product"> </app-product-alerts>
 </div>
